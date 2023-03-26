@@ -1,0 +1,56 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #52583f;
+	overflow: ;
+}
+.card-group{
+	width: 100%;
+	line-height: ;
+	gap: 15.5rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: .9rem;
+	align-items: flex-start;
+}
+.card{
+	background: #fff;
+	padding: 1rem;
+	border: 1px solid #666;
+	border-radius: .25rem;
+}
+.card-group .card:hover{
+	background: #e4d50d;;
+	cursor: pointer;
+	transform: ;
+	transform: scale(1.04);
+}
+h2, p {
+	margin: 0;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+h2 {
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 568px)
+@media (min-width: 450px){
+	html{
+		font-size: 50%;
+	}
+
+}
